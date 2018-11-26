@@ -3,6 +3,7 @@ class QuestionsControllerController < ApplicationController
   end
 
   def answer
+    # raise
     @question = params[:question]
 
     if @question == "i am going to work right now!"
